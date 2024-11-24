@@ -1,0 +1,174 @@
+:root {
+  --primary-color: #0077b6;
+  --secondary-color: #f4f4f4;
+  --accent-color: #ff5722;
+  --text-color: #333;
+  --hover-color: #ffeb3b;
+  --footer-text: #fff;
+  --modal-overlay: rgba(0, 0, 0, 0.7);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--secondary-color);
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 70px;
+  margin-bottom: 13px;
+  line-height: 1.5;
+  text-align: center;
+}
+h2 {
+  font-size: 36px;
+  margin-top: 70px;
+  margin-bottom: 13px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.content {
+  max-width: 70%;
+  margin: 0 auto;
+  color: var(--text-color);
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+.navigation-wrapper {
+  max-width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.navigation-list {
+  text-align: right;
+}
+
+.navigation-item {
+  display: inline-block;
+  padding: 1rem;
+  position: relative;
+}
+
+.navigation-item a {
+  color: var(--secondary-color);
+}
+
+.navigation-item a:hover {
+  color: var(--hover-color);
+}
+
+.o_mne {
+}
+
+.text_o_mne {
+  padding: 20px;
+  width: calc(100% / 2);
+  text-align: left;
+  float: left;
+  display: inline-block;
+}
+.foto_o_mne img {
+  width: calc(100% / 3);
+  float: right;
+  padding: 20px;
+  display: inline-block;
+}
+
+.foto_o_mne_II img {
+  width: 100%;
+  padding: 20px;
+  position: relative;
+}
+
+p {
+  margin: 10px;
+}
+.text_tpf {
+  margin: 10px;
+  position: relative;
+
+  padding: 20px;
+}
+
+.gallery {
+  font-size: 0;
+}
+.image {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.image-wrapper {
+  width: calc(100% / 3);
+  height: 400px;
+  display: inline-block;
+  font-size: 0;
+}
+
+@media (max-width: 600px) {
+  .image-wrapper {
+    width: calc(100% / 2);
+  }
+}
+
+.scroll-to-top {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  background-color: var(--primary-color);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.facebook {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  background-color: var(--primary-color);
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+}
+.instagram {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  background-color: var(--primary-color);
+  position: fixed;
+  bottom: 140px;
+  right: 20px;
+}
